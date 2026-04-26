@@ -1,0 +1,46 @@
+# CMake build trees
+build/
+out/
+cmake-build-*/
+
+# CMake intermediate files (when generated in-source)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+*.cmake.stamp
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.vcxproj.filters
+*.suo
+*.sln.docstates
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# Compiled artefacts
+*.obj
+*.o
+*.lib
+*.a
+*.dll
+*.so
+*.dylib
+*.exe
+*.pdb
+*.ilk
+*.exp
+*.idb
+
+# Editor / OS noise
+.idea/
+.vscode/
+.cache/
+*.swp
+*~
+.DS_Store
+Thumbs.db
